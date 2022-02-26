@@ -1,0 +1,116 @@
+/* default browser styles */
+
+*{
+    padding:0;
+    margin:0;
+}
+
+
+/* css variables */
+
+
+:root{
+    --softBlue:hsl(215, 51%, 70%);
+    --cyan:hsl(178, 100%, 50%);
+    --veryDarkBlueMB:hsl(217, 54%, 11%);
+    --veryDarkBlueCB:hsl(216, 50%, 16%);
+    --veryDarkBlueLine:hsl(215, 32%, 27%);
+    --white:hsl(0, 0%, 100%);
+}
+
+
+body{
+    background:var(--veryDarkBlueMB);
+    color:var(--white);
+
+    /* text-align: center; */
+}
+
+.section{
+    max-width: 400px;
+    margin:50px auto;
+
+    background: var( --veryDarkBlueCB);
+    padding: 32px;
+    border-radius: 12px;
+    
+
+    /* margin-top:0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto; */
+}
+
+.firstImage{  
+    width: 400px;
+    width:100%;
+    border-radius:10px;
+}
+
+.firstDiv{
+    padding-top:35px; 
+}
+
+.firstH2{
+    padding-bottom:30px;
+    font-size: 25px;
+}
+
+.firstH2:hover, .lastDiv h3:hover, .first h2:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.firstP{
+    padding-bottom:30px;
+    color: var(--softBlue);
+    font-size:20px;
+}
+
+
+.secondDiv{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-bottom: 40px;
+    border-bottom:1px var( --veryDarkBlueLine) solid;
+}
+
+
+.second{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--softBlue);
+    gap: 10px;
+}
+
+.first{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--cyan);
+}
+
+.lastDiv{
+    display:flex;
+    align-items: center;
+    gap:20px;
+
+    margin-top: 40px;
+}
+
+.lastDiv img{
+    width: 40px;
+    border: 1px white solid;
+    border-radius: 50%;
+}
+
+.lastDiv h3{
+    font-size: 22px;
+}
+
+.span{
+    color:var(--softBlue);
+}
